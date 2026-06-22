@@ -248,7 +248,6 @@ let 排行数据 = [];
 })
 排行数据.sort(function(a,b) {
          return b.销量 - a.销量;
-         
 })
 let Firstfour = 排行数据.slice(0,4);
 
@@ -266,4 +265,5 @@ Firstfour.forEach(function(item,i) {
 
 document.querySelector("#排行列表").innerHTML = topbox;
 } 
+/*========================================================*/
 
